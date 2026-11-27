@@ -1,0 +1,19 @@
+Bonjour,
+
+Voici quelques précisions sur notre rendu (hexanôme 23).
+
+1. Diagrammes: tous les diagrammes du PDF ont été exportés en PDF vectoriel. Ils restent donc parfaitement lisibles en zoomant autant que nécessaire, même si leur taille est réduite à l'impression.
+
+2. Livrables adaptés à Python: notre application est développée en Python (FastAPI) et Vue, il n'y a donc ni .jar ni JavaDoc. Nous les avons remplacés par:
+
+	- un déploiement Docker (docker compose, scripts install.sh / install.bat) qui lance la base de données, l'API et l'application, avec des comptes de démonstration créés automatiquement à la place des fichiers XML d'exemple;
+	- la documentation du code générée à partir des docstrings dans les fichiers.
+
+3. Installation: la procédure complète (installation rapide avec Docker et installation pour le développement) se trouve dans le fichier README.md à la racine du projet.
+
+4. Document: le document (rapport .pdf) est localisé en /docs.
+
+En cas de problème d'exécution ou d'ouverture, le projet peut être cloné depuis GitHub (https://github.com/MARCOVB5/aura-hcl) ou l'application peut être consultée en ligne: https://aura.piechu.id.vn (identifiants : demo.medecin, demo.infirmier ou demo.kine, mot de passe : abc).
+
+Cordialement,
+L'hexanôme 23

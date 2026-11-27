@@ -284,6 +284,21 @@ CREATE TABLE vital_signs (
   CONSTRAINT ck_vs_method    CHECK ((weight_kg IS NULL) = (weight_method IS NULL))
 ) ENGINE=InnoDB;
 
+--CREATE TABLE captured_vital_sign (
+--  id             BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+--  type		 VARCHAR(255), --peut-être à modifier plus tard
+--  value		 BIGINT UNSIGNED,
+--  unique	 BOOLEAN
+--) ENGINE=InnoDB;
+
+--CREATE TABLE values_captured_vital_sign (
+--  list_id 		 BIGINT UNSIGNED,
+--  value			 DECIMAL(5, 2) NOT NULL,
+--  date 			 DATETIME NOT NULL,
+--  UNIQQUE KEY pk (list_id, value, date) 
+--) ENGINE=InnoDB;
+
+
 -- ------------------------------------------------------------
 -- Care planning & Agenda
 -- ------------------------------------------------------------
